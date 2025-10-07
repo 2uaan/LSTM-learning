@@ -1,0 +1,140 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram name="Page-1" id="bhZ3xM5GeWRVstb4cKA2">
+    <mxGraphModel dx="741" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-13" value="RNN (Recurrent Neural Network) - Mạng lưới thần kinh hồi quy" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="333" width="861" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-14" value="" style="group" vertex="1" connectable="0" parent="ilEE9X5BdxgnDR6BqSXt-13">
+          <mxGeometry x="40" y="49" width="480" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-14">
+          <mxGeometry x="160" y="63" width="160" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-14" source="ilEE9X5BdxgnDR6BqSXt-1" target="ilEE9X5BdxgnDR6BqSXt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Input&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-14">
+          <mxGeometry y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-3" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Output&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-14">
+          <mxGeometry x="400" y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-14" source="ilEE9X5BdxgnDR6BqSXt-4" target="ilEE9X5BdxgnDR6BqSXt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Computer&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-14">
+          <mxGeometry x="200" y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.014;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-14" source="ilEE9X5BdxgnDR6BqSXt-3" target="ilEE9X5BdxgnDR6BqSXt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="143" as="sourcePoint" />
+            <mxPoint x="490" y="93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="23" />
+              <mxPoint x="110" y="23" />
+              <mxPoint x="110" y="158" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-8" value="Combine with next Input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-14">
+          <mxGeometry x="229" width="147" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-32" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Mạng lưới thần kinh hồi quy (RNN) &lt;span style=&quot;font-style: normal;&quot;&gt;là một kiến trúc&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;học sâu trong AI huấn luyện các dữ liệu tuần tự hoặc&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;chuỗi thời gian. Khác với &lt;/span&gt;Mạng lưới thần kinh truyền&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;thẳng (FNN), &lt;span style=&quot;font-style: normal;&quot;&gt;RNN có cơ chế vòng lặp, giữ lại trạng&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;thái thông tin từ các bước trước sau đó kết hợp với&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;thông tin ở bước hiện tại để làm input cho bước hiện&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;tại. RNN là tiền đề để phát triển LSTM&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Nhược điểm của RNN&lt;/b&gt;&amp;nbsp;là khi thực khi trên&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;một nguồn dữ liệu quá lớn sẽ ảnh hưởng đến&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;kết quả của các dự đoán sau cùng. Càng về&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;cuối dự đoán càng mất chính xác&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontStyle=2;fontColor=light-dark(#ff0000, #ededed);" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-13">
+          <mxGeometry x="504" y="78" width="340" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-15" value="LSTM Cell (State)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="1270" width="733" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-16" value="" style="group" vertex="1" connectable="0" parent="ilEE9X5BdxgnDR6BqSXt-15">
+          <mxGeometry x="34" y="69.5" width="210" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-9" value="Forget&lt;div&gt;Gate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-16">
+          <mxGeometry width="70" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-10" value="Input&lt;div&gt;Gate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-16">
+          <mxGeometry x="70" width="70" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-11" value="Output&lt;div&gt;Gate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-16">
+          <mxGeometry x="140" width="70" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;LSTM Cell &lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237)); font-style: normal;&quot;&gt;sẽ bao gồm:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;- Forget Gate: &lt;span style=&quot;font-style: normal;&quot;&gt;sẽ chỉ ra phần thông tin nào của &lt;/span&gt;State&lt;span style=&quot;font-style: normal;&quot;&gt;&amp;nbsp;có thể được&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;quên đi vì nó đã không phù hợp với ngữ cảnh nữa&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;- Input Gate: &lt;span style=&quot;font-style: normal;&quot;&gt;sẽ chỉ ra phần thông tin nào của &lt;/span&gt;State&lt;span style=&quot;font-style: normal;&quot;&gt; cần thêm vào&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;hoặc chỉnh&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-style: normal; font-size: 15px; background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;sửa&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;-Output Gate: &lt;span style=&quot;font-style: normal;&quot;&gt;sẽ chỉ ra phần thông tin nào của &lt;/span&gt;State&lt;span style=&quot;font-style: normal;&quot;&gt;&amp;nbsp;là Output cho&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;những trường hợp cụ thể&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;Mỗi &lt;/span&gt;Gate&lt;span style=&quot;font-style: normal;&quot;&gt; sẽ được giao cho 1 trị số giá trị từ 0-1, với 0 có nghĩa là&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Gate &lt;span style=&quot;font-style: normal;&quot;&gt;đó đóng và sẽ không thực hiện chức năng, còn 1 có nghĩa là&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Gate &lt;span style=&quot;font-style: normal;&quot;&gt;đó hoàn toàn mở và sẽ thực hiện tối đa chức năng. Các giá&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;trị có thể nằm giữa khoản 0-1.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontStyle=2;fontColor=light-dark(#ff0000, #ededed);" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-15">
+          <mxGeometry x="280" y="43" width="414" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-17" value="LSTM (Long Short-Term Memory) - Bộ nhớ dài-ngắn hạn" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="794" width="865" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-28" value="" style="group" vertex="1" connectable="0" parent="ilEE9X5BdxgnDR6BqSXt-17">
+          <mxGeometry x="40" y="49" width="480" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry x="160" y="63" width="160" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-28" source="ilEE9X5BdxgnDR6BqSXt-21" target="ilEE9X5BdxgnDR6BqSXt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-21" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Input&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-22" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Output&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry x="400" y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-28" source="ilEE9X5BdxgnDR6BqSXt-24" target="ilEE9X5BdxgnDR6BqSXt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-24" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Computer&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry x="200" y="163" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-28" source="ilEE9X5BdxgnDR6BqSXt-22" target="ilEE9X5BdxgnDR6BqSXt-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="143" as="sourcePoint" />
+            <mxPoint x="490" y="93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="23" />
+              <mxPoint x="110" y="23" />
+              <mxPoint x="110" y="103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-26" value="Combine with next Input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry x="229" width="147" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-27" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;State&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-28">
+          <mxGeometry x="180" y="249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-33" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Bộ nhớ dài-ngắn hạn (LSTM) &lt;span style=&quot;font-style: normal;&quot;&gt;là môt biến thể&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;của RNN. Thay vì giữ lại tất cả các Output từ&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;các bước trước đó sau đó kết hợp với Input của&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;bước hiện tại, LSTM sẽ chỉ kết hợp Output của&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;bước liền trước cùng với Input của bước hiện tại&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;và kết hợp cùng với &lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;State (hay có thể nói là&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;LSTM Cell) &lt;span style=&quot;font-style: normal;&quot;&gt;rồi mới đưa vào xử lí&lt;/span&gt;.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;&lt;br&gt;Những đặc điểm đó khiến cho LSTM có thể&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;xử lí tốt hơn khi đụng phải những data có quy&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px; font-style: normal;&quot;&gt;mô lớn.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontStyle=2;fontColor=light-dark(#ff0000, #ededed);" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-17">
+          <mxGeometry x="526" y="120" width="309" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;curved=0;strokeWidth=3;dashed=1;entryX=0.207;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ilEE9X5BdxgnDR6BqSXt-27" target="ilEE9X5BdxgnDR6BqSXt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-40" value="Example" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="532" y="1638" width="516" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ilEE9X5BdxgnDR6BqSXt-40" source="ilEE9X5BdxgnDR6BqSXt-43" target="ilEE9X5BdxgnDR6BqSXt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-43" value="&lt;font style=&quot;color: rgb(130, 179, 102);&quot;&gt;Node1: &lt;u&gt;Minh Quân&lt;/u&gt; đi mua táo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#99FF99;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-40">
+          <mxGeometry x="18" y="44" width="178" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-44" value="&lt;font style=&quot;color: rgb(130, 179, 102);&quot;&gt;Node5: &lt;u&gt;Zed&lt;/u&gt;&amp;nbsp;bán chuối&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#99FF99;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-40">
+          <mxGeometry x="24" y="115" width="136" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-45" value="&lt;font color=&quot;#82b366&quot;&gt;&lt;i&gt;Ở đây thì đối tượng &lt;/i&gt;&lt;i style=&quot;text-decoration-line: underline;&quot;&gt;Minh Quân&lt;/i&gt;&lt;i style=&quot;&quot;&gt;&amp;nbsp;- là người mua&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#82b366&quot;&gt;sẽ được&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(130, 179, 102); background-color: transparent;&quot;&gt;đưa vào State&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#99FF99;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-40">
+          <mxGeometry x="224" y="40" width="268" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-47" value="&lt;font color=&quot;#82b366&quot;&gt;&lt;i&gt;Lúc này đối tượng &lt;/i&gt;&lt;i style=&quot;text-decoration-line: underline;&quot;&gt;Minh Quân&lt;/i&gt;&amp;nbsp;&lt;i&gt;không còn được&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#82b366&quot;&gt;&lt;i&gt;quan tâm nữa nên sẽ bị Forget để thay thế bằng&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#82b366&quot;&gt;&lt;i&gt;đối tượng &lt;u&gt;Zed&lt;/u&gt;&amp;nbsp;là người bán&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#99FF99;" vertex="1" parent="ilEE9X5BdxgnDR6BqSXt-40">
+          <mxGeometry x="226" y="100.5" width="275" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ilEE9X5BdxgnDR6BqSXt-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.576;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.0800000000002" y="1584.16" as="sourcePoint" />
+            <mxPoint x="668.998" y="1638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
